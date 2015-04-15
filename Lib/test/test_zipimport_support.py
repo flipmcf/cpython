@@ -14,7 +14,7 @@ import inspect
 import linecache
 import pdb
 import unittest
-from test.script_helper import (spawn_python, kill_python, assert_python_ok,
+from test.support.script_helper import (spawn_python, kill_python, assert_python_ok,
                                 temp_dir, make_script, make_zip_script)
 
 verbose = test.support.verbose

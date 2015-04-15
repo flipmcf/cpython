@@ -22,7 +22,7 @@ from test.support import (
     EnvironmentVarGuard, TESTFN, check_warnings, forget, is_jython,
     make_legacy_pyc, rmtree, run_unittest, swap_attr, swap_item, temp_umask,
     unlink, unload, create_empty_file, cpython_only, TESTFN_UNENCODABLE)
-from test import script_helper
+from test.support import script_helper
 
 
 skip_if_dont_write_bytecode = unittest.skipIf(

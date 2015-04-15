@@ -1,7 +1,7 @@
 import unittest
 from test.support import (verbose, refcount_test, run_unittest,
                             strip_python_stderr, cpython_only, start_threads)
-from test.script_helper import assert_python_ok, make_script, temp_dir
+from test.support.script_helper import assert_python_ok, make_script, temp_dir
 
 import sys
 import time

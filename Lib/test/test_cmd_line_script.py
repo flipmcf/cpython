@@ -13,7 +13,7 @@ import subprocess
 
 import textwrap
 from test import support
-from test.script_helper import (
+from test.support.script_helper import (
     make_pkg, make_script, make_zip_pkg, make_zip_script,
     assert_python_ok, assert_python_failure, temp_dir,
     spawn_python, kill_python)

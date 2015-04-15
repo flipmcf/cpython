@@ -2729,7 +2729,7 @@ With those preliminaries out of the way, we'll start with a file with two
 simple tests and no errors.  We'll run both the unadorned doctest command, and
 the verbose version, and then check the output:
 
-    >>> from test import script_helper
+    >>> from test.support import script_helper
     >>> with script_helper.temp_dir() as tmpdir:
     ...     fn = os.path.join(tmpdir, 'myfile.doc')
     ...     with open(fn, 'w') as f:
@@ -2780,7 +2780,7 @@ ability to process more than one file on the command line and, since the second
 file ends in '.py', its handling of python module files (as opposed to straight
 text files).
 
-    >>> from test import script_helper
+    >>> from test.support import script_helper
     >>> with script_helper.temp_dir() as tmpdir:
     ...     fn = os.path.join(tmpdir, 'myfile.doc')
     ...     with open(fn, 'w') as f:

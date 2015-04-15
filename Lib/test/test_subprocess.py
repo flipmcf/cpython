@@ -1,5 +1,5 @@
 import unittest
-from test import script_helper
+from test.support import script_helper
 from test import support
 import subprocess
 import sys
